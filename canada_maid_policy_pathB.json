@@ -1,0 +1,235 @@
+{
+  "question": "Should Canada extend medical assistance in dying (MAID) to people whose sole underlying condition is a mental illness?",
+  "options": [
+    {
+      "id": "expand_2027",
+      "label": "Proceed with the expansion in March 2027 as legislated",
+      "description": "Make people whose sole condition is mental illness eligible, with existing track-two safeguards.",
+      "assessments": {
+        "good_evil": {
+          "position": -0.1,
+          "relevance": 0.9,
+          "confidence": 0.3,
+          "rationale": "Relief for some in intractable suffering vs. the risk of irreversible deaths where recovery was possible"
+        },
+        "power": {
+          "position": -0.25,
+          "relevance": 0.7,
+          "confidence": 0.4,
+          "rationale": "Extends choice to competent adults; critics warn a 'choice' shaped by poverty or lack of care leaves people unprotected"
+        },
+        "accuracy_intuition": {
+          "position": -0.5,
+          "relevance": 0.7,
+          "confidence": 0.5,
+          "rationale": "Would proceed while experts disagree on whether irremediability can be predicted in mental illness"
+        },
+        "trust_fear": {
+          "position": -0.25,
+          "relevance": 0.6,
+          "confidence": 0.4,
+          "rationale": "Many patients, families and suicide-prevention advocates fear the signal; others trust the safeguards"
+        },
+        "honor_shame": {
+          "position": 0.1,
+          "relevance": 0.8,
+          "confidence": 0.3,
+          "rationale": "Dignity claimed by both sides: equal treatment and self-determination vs. the message that some lives are not worth living"
+        },
+        "freedom_bonding": {
+          "position": 0.7,
+          "relevance": 0.8,
+          "confidence": 0.6,
+          "rationale": "Centers individual self-determination; families and communities have little formal role"
+        },
+        "thriving_surviving": {
+          "position": -0.2,
+          "relevance": 0.6,
+          "confidence": 0.3,
+          "rationale": "Relief from suffering for some; for those who might have recovered, the future is foreclosed"
+        },
+        "relational_duty": {
+          "position": -0.3,
+          "relevance": 0.5,
+          "confidence": 0.5,
+          "rationale": "Weakens the role and duty of family and community care"
+        },
+        "lawful_justice": {
+          "position": 0.45,
+          "relevance": 0.7,
+          "confidence": 0.5,
+          "rationale": "Ends what supporters and a pending court challenge call unequal treatment of mental and physical suffering"
+        }
+      },
+      "reversible": false,
+      "benefit": "Ends what supporters call an unjust double standard; offers a safe death to people with treatment-resistant suffering",
+      "origin": "proposed"
+    },
+    {
+      "id": "pause_indefinitely",
+      "label": "Pause indefinitely (the government's decision)",
+      "description": "Extend the exclusion with no end date, pending medical consensus and better mental-health services.",
+      "assessments": {
+        "good_evil": {
+          "position": 0.2,
+          "relevance": 0.9,
+          "confidence": 0.3,
+          "rationale": "Avoids irreversible deaths where recovery might have been possible; leaves some in treatment-resistant suffering without the option"
+        },
+        "power": {
+          "position": 0.5,
+          "relevance": 0.7,
+          "confidence": 0.35,
+          "rationale": "Protects people whose choice might be shaped by deprivation, or, as critics argue, the state overrides competent adults with no end date"
+        },
+        "accuracy_intuition": {
+          "position": 0.3,
+          "relevance": 0.7,
+          "confidence": 0.5,
+          "rationale": "Responds to the stated absence of medical consensus and to gaps in services"
+        },
+        "trust_fear": {
+          "position": 0.1,
+          "relevance": 0.6,
+          "confidence": 0.4,
+          "rationale": "Reassures suicide-prevention and disability advocates; deepens despair for some with treatment-resistant illness"
+        },
+        "honor_shame": {
+          "position": -0.1,
+          "relevance": 0.7,
+          "confidence": 0.3,
+          "rationale": "Protection of the vulnerable vs. treating people with mental illness as less able to decide than others"
+        },
+        "freedom_bonding": {
+          "position": -0.3,
+          "relevance": 0.6,
+          "confidence": 0.5,
+          "rationale": "Leans on protection and care over individual choice"
+        },
+        "thriving_surviving": {
+          "position": 0.1,
+          "relevance": 0.6,
+          "confidence": 0.3,
+          "rationale": "Keeps recovery possible, but does nothing by itself to improve care"
+        },
+        "lawful_justice": {
+          "position": -0.3,
+          "relevance": 0.7,
+          "confidence": 0.5,
+          "rationale": "Leaves in place a distinction supporters call an unjust double standard; the legal question stays unresolved"
+        },
+        "relational_duty": {
+          "position": 0.2,
+          "relevance": 0.4,
+          "confidence": 0.5,
+          "rationale": "Keeps families and communities in the circle of care"
+        }
+      },
+      "reversible": true,
+      "benefit": "Avoids proceeding without medical consensus or adequate mental-health services",
+      "origin": "proposed"
+    },
+    {
+      "id": "permanent_exclusion",
+      "label": "Permanently exclude mental illness as a sole condition",
+      "description": "Legislate a permanent bar regardless of future evidence.",
+      "assessments": {
+        "good_evil": {
+          "position": 0.1,
+          "relevance": 0.9,
+          "confidence": 0.3,
+          "rationale": "Protection for some, permanent denial for others"
+        },
+        "power": {
+          "position": 0.7,
+          "relevance": 0.7,
+          "confidence": 0.4,
+          "rationale": "A categorical, permanent state rule replaces any individual assessment"
+        },
+        "accuracy_intuition": {
+          "position": -0.5,
+          "relevance": 0.6,
+          "confidence": 0.5,
+          "rationale": "Settles the question by conviction; will not revisit whatever future evidence shows"
+        },
+        "trust_fear": {
+          "position": 0.1,
+          "relevance": 0.6,
+          "confidence": 0.4,
+          "rationale": "Reassures some; tells others their suffering will never be weighed"
+        },
+        "honor_shame": {
+          "position": -0.25,
+          "relevance": 0.7,
+          "confidence": 0.35,
+          "rationale": "Treats mental illness as a category apart: protection to supporters, stigma to critics"
+        },
+        "freedom_bonding": {
+          "position": -0.55,
+          "relevance": 0.6,
+          "confidence": 0.5,
+          "rationale": "Care and protection override individual choice permanently"
+        },
+        "thriving_surviving": {
+          "position": 0.1,
+          "relevance": 0.6,
+          "confidence": 0.3,
+          "rationale": "Keeps recovery possible; no new care by itself"
+        },
+        "lawful_justice": {
+          "position": -0.5,
+          "relevance": 0.7,
+          "confidence": 0.45,
+          "rationale": "Entrenches what the court challenge calls a Charter-violating double standard"
+        },
+        "relational_duty": {
+          "position": 0.3,
+          "relevance": 0.4,
+          "confidence": 0.5,
+          "rationale": "Keeps families and communities in the circle of care"
+        }
+      },
+      "reversible": true,
+      "benefit": "Settles the question and removes the risk permanently",
+      "origin": "proposed"
+    }
+  ],
+  "mode": "act",
+  "context": "Eligibility was scheduled for March 2027 after two earlier delays (2023, 2024). On Oct 7, 2026 Justice Minister Sean Fraser announced an indefinite pause, citing no medical consensus on whether mental illnesses are irremediable and inadequate access to mental-health services. A parliamentary committee had recommended indefinite exclusion (with a dissenting report). A federal court challenge argues the exclusion is an unconstitutional double standard. Critics of expansion warn people may seek MAID because of inadequate housing or care.",
+  "stakeholders": [
+    {
+      "name": "People with treatment-resistant mental illness seeking MAID",
+      "vulnerable": true,
+      "note": ""
+    },
+    {
+      "name": "People with mental illness at risk of suicide or lacking housing and care",
+      "vulnerable": true,
+      "note": ""
+    },
+    {
+      "name": "Families",
+      "vulnerable": false,
+      "note": ""
+    },
+    {
+      "name": "Clinicians and assessors",
+      "vulnerable": false,
+      "note": ""
+    },
+    {
+      "name": "Provinces and health systems",
+      "vulnerable": false,
+      "note": ""
+    }
+  ],
+  "declared_values": [],
+  "proposed_option": "pause_indefinitely",
+  "stakes": "critical",
+  "tags": [
+    "policy",
+    "maid",
+    "mental-health",
+    "canada"
+  ]
+}

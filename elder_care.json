@@ -1,0 +1,142 @@
+{
+  "question": "Should an elderly parent move into assisted living?",
+  "options": [
+    {
+      "id": "assisted_living",
+      "label": "Honor her wish: assisted living across the state",
+      "description": "",
+      "assessments": {
+        "good_evil": {
+          "position": 0.35,
+          "relevance": 0.5,
+          "confidence": 0.7,
+          "rationale": "Safety improves"
+        },
+        "power": {
+          "position": 0.1,
+          "relevance": 0.6,
+          "confidence": 0.7,
+          "rationale": "Her own decision"
+        },
+        "trust_fear": {
+          "position": 0.1,
+          "relevance": 0.5,
+          "confidence": 0.6,
+          "rationale": "Safer, but among strangers"
+        },
+        "honor_shame": {
+          "position": 0.4,
+          "relevance": 0.5,
+          "confidence": 0.6,
+          "rationale": "Her wishes are honored"
+        },
+        "freedom_bonding": {
+          "position": 0.72,
+          "relevance": 0.9,
+          "confidence": 0.7,
+          "rationale": "Independence kept, but far from family"
+        },
+        "thriving_surviving": {
+          "position": 0.1,
+          "relevance": 0.5,
+          "confidence": 0.6,
+          "rationale": "Safer, though loneliness may rise"
+        },
+        "identity": {
+          "position": 0.5,
+          "relevance": 0.7,
+          "confidence": 0.6,
+          "rationale": "She remains the independent person she wants to be"
+        },
+        "relational_duty": {
+          "position": -0.65,
+          "relevance": 0.9,
+          "confidence": 0.7,
+          "rationale": "Children step back from the duty of care"
+        }
+      },
+      "reversible": true,
+      "benefit": "Safety improves; family burden falls",
+      "origin": "proposed"
+    },
+    {
+      "id": "move_in",
+      "label": "Move her into the family home",
+      "description": "The family insists she live with them instead.",
+      "assessments": {
+        "good_evil": {
+          "position": 0.35,
+          "relevance": 0.5,
+          "confidence": 0.7,
+          "rationale": "Cared for by people who love her"
+        },
+        "power": {
+          "position": 0.6,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "The family decides for her"
+        },
+        "trust_fear": {
+          "position": 0.3,
+          "relevance": 0.4,
+          "confidence": 0.6,
+          "rationale": "Familiar people around her"
+        },
+        "honor_shame": {
+          "position": -0.3,
+          "relevance": 0.6,
+          "confidence": 0.6,
+          "rationale": "A competent adult's stated wish is overridden"
+        },
+        "freedom_bonding": {
+          "position": -0.6,
+          "relevance": 0.9,
+          "confidence": 0.7,
+          "rationale": "Close bonds; her independence curtailed"
+        },
+        "thriving_surviving": {
+          "position": 0.25,
+          "relevance": 0.5,
+          "confidence": 0.6,
+          "rationale": "Safe, if constrained"
+        },
+        "identity": {
+          "position": -0.4,
+          "relevance": 0.8,
+          "confidence": 0.6,
+          "rationale": "Pushes her away from the independent life she wants"
+        },
+        "relational_duty": {
+          "position": 0.7,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "Family keeps the duty of care"
+        }
+      },
+      "reversible": true,
+      "benefit": "Family keeps her close",
+      "origin": "proposed"
+    }
+  ],
+  "mode": "act",
+  "context": "She wants to move to a facility across the state. Safety would improve; family duty and closeness pull the other way. Loneliness may rise or fall depending on the setting.",
+  "stakeholders": [
+    {
+      "name": "Parent (82)",
+      "vulnerable": true,
+      "note": ""
+    },
+    {
+      "name": "Adult children",
+      "vulnerable": false,
+      "note": ""
+    }
+  ],
+  "declared_values": [],
+  "proposed_option": null,
+  "stakes": "consequential",
+  "tags": [
+    "family",
+    "elder"
+  ]
+}

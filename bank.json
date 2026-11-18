@@ -1,0 +1,195 @@
+{
+  "question": "Should the bank's AI freeze the account of an elderly woman who keeps sending money to an online 'friend'?",
+  "options": [
+    {
+      "id": "freeze",
+      "label": "Freeze the account without a word",
+      "description": "Freeze immediately; no call, no explanation.",
+      "assessments": {
+        "good_evil": {
+          "position": 0.35,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "The pattern matches elder fraud — stopping it is protective"
+        },
+        "power": {
+          "position": 0.85,
+          "relevance": 0.9,
+          "confidence": 0.7,
+          "rationale": "Takes control of her money without a word"
+        },
+        "accuracy_intuition": {
+          "position": 0.75,
+          "relevance": 0.6,
+          "confidence": 0.7,
+          "rationale": "Acts on the pattern match alone"
+        },
+        "trust_fear": {
+          "position": -0.5,
+          "relevance": 0.8,
+          "confidence": 0.6,
+          "rationale": "Trust and fear in tension: she may stop trusting anyone"
+        },
+        "honor_shame": {
+          "position": -0.6,
+          "relevance": 0.8,
+          "confidence": 0.6,
+          "rationale": "A freeze without a word may bring shame"
+        },
+        "thriving_surviving": {
+          "position": 0.1,
+          "relevance": 0.5,
+          "confidence": 0.6,
+          "rationale": "Money protected, but she is diminished"
+        },
+        "identity": {
+          "position": -0.6,
+          "relevance": 0.7,
+          "confidence": 0.6,
+          "rationale": "She may lose her independence"
+        }
+      },
+      "reversible": true,
+      "benefit": "Stops potential fraud losses at once",
+      "origin": "proposed"
+    },
+    {
+      "id": "nothing",
+      "label": "Take no action",
+      "description": "Process the transfers as usual.",
+      "assessments": {
+        "good_evil": {
+          "position": -0.55,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "Lets likely fraud continue"
+        },
+        "power": {
+          "position": -0.6,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "Leaves a vulnerable customer unprotected"
+        },
+        "accuracy_intuition": {
+          "position": -0.5,
+          "relevance": 0.5,
+          "confidence": 0.7,
+          "rationale": "Ignores strong evidence"
+        },
+        "honor_shame": {
+          "position": 0.3,
+          "relevance": 0.4,
+          "confidence": 0.6,
+          "rationale": "No embarrassment today"
+        },
+        "freedom_bonding": {
+          "position": 0.3,
+          "relevance": 0.4,
+          "confidence": 0.6,
+          "rationale": "Her independence is untouched"
+        },
+        "thriving_surviving": {
+          "position": -0.6,
+          "relevance": 0.7,
+          "confidence": 0.6,
+          "rationale": "Her savings drain away"
+        },
+        "identity": {
+          "position": 0.3,
+          "relevance": 0.4,
+          "confidence": 0.6,
+          "rationale": "She stays independent — for now"
+        }
+      },
+      "reversible": true,
+      "benefit": "No friction for the customer",
+      "origin": "proposed"
+    },
+    {
+      "id": "hold_and_call",
+      "label": "Short hold on large transfers + a call from someone she knows",
+      "description": "Place a brief hold on large transfers only and arrange a call from someone she trusts.",
+      "assessments": {
+        "good_evil": {
+          "position": 0.6,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "The account shows signs of fraud; the hold limits harm"
+        },
+        "power": {
+          "position": 0.3,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "Proportionate, temporary structure; she keeps a voice"
+        },
+        "accuracy_intuition": {
+          "position": 0.3,
+          "relevance": 0.6,
+          "confidence": 0.7,
+          "rationale": "Acts on the evidence, tempered by judgment"
+        },
+        "trust_fear": {
+          "position": 0.5,
+          "relevance": 0.8,
+          "confidence": 0.6,
+          "rationale": "Trust preserved through a familiar voice"
+        },
+        "honor_shame": {
+          "position": 0.5,
+          "relevance": 0.8,
+          "confidence": 0.6,
+          "rationale": "Treats her as a capable adult"
+        },
+        "freedom_bonding": {
+          "position": -0.1,
+          "relevance": 0.7,
+          "confidence": 0.6,
+          "rationale": "Honors independence and connection together"
+        },
+        "thriving_surviving": {
+          "position": 0.5,
+          "relevance": 0.6,
+          "confidence": 0.6,
+          "rationale": "She stays safe"
+        },
+        "identity": {
+          "position": 0.5,
+          "relevance": 0.7,
+          "confidence": 0.6,
+          "rationale": "She keeps her independence and her dignity"
+        },
+        "relational_duty": {
+          "position": 0.5,
+          "relevance": 0.5,
+          "confidence": 0.6,
+          "rationale": "Brings someone she trusts into the loop"
+        }
+      },
+      "reversible": true,
+      "benefit": "Limits losses while keeping her in the loop",
+      "origin": "proposed"
+    }
+  ],
+  "mode": "act",
+  "context": "The transfer pattern matches elder fraud. She feels seen and cared for by this friend.",
+  "stakeholders": [
+    {
+      "name": "Account holder (elderly)",
+      "vulnerable": true,
+      "note": ""
+    },
+    {
+      "name": "The bank",
+      "vulnerable": false,
+      "note": ""
+    }
+  ],
+  "declared_values": [],
+  "proposed_option": null,
+  "stakes": "consequential",
+  "tags": [
+    "finance",
+    "elder",
+    "fraud"
+  ]
+}

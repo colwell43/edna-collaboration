@@ -1,0 +1,74 @@
+{
+  "question": "Evaluate the text as a communication: the BBC headline and summary line, as given.",
+  "options": [
+    {
+      "id": "as_written",
+      "label": "The text as written",
+      "description": "Canada suspends plans to expand assisted dying to people with mental illness. People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely.",
+      "assessments": {
+        "accuracy_intuition": {
+          "position": 0.4,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "Factually consistent with other reporting: eligibility was set for March 2027 and is now paused indefinitely; the two lines omit the reasons and the disagreement"
+        },
+        "good_evil": {
+          "position": 0.35,
+          "relevance": 0.6,
+          "confidence": 0.6,
+          "rationale": "Informs the public about a consequential policy decision; no harmful content"
+        },
+        "trust_fear": {
+          "position": 0.3,
+          "relevance": 0.5,
+          "confidence": 0.6,
+          "rationale": "Sober, neutral wording; no sensationalism"
+        },
+        "honor_shame": {
+          "position": 0.3,
+          "relevance": 0.5,
+          "confidence": 0.6,
+          "rationale": "Person-first, non-stigmatizing language ('people with mental illness')"
+        },
+        "power": {
+          "position": 0.0,
+          "relevance": 0.4,
+          "confidence": 0.5,
+          "rationale": "Neither side, nor the people most affected, is heard in these two lines"
+        },
+        "meaningful_meaningless": {
+          "position": 0.3,
+          "relevance": 0.4,
+          "confidence": 0.6,
+          "rationale": "Substantive public-interest news"
+        }
+      },
+      "reversible": true,
+      "benefit": "Informs the public of a major policy change",
+      "origin": "proposed"
+    }
+  ],
+  "mode": "answer",
+  "context": "Score the choice, not the topic: the subject (assisted dying, mental illness) is grave; the question is whether THIS text, as written, informs or harms.",
+  "stakeholders": [
+    {
+      "name": "Readers living with mental illness",
+      "vulnerable": true,
+      "note": ""
+    },
+    {
+      "name": "General public",
+      "vulnerable": false,
+      "note": ""
+    }
+  ],
+  "declared_values": [],
+  "proposed_option": "as_written",
+  "stakes": "consequential",
+  "tags": [
+    "news",
+    "maid",
+    "mental-health",
+    "canada"
+  ]
+}

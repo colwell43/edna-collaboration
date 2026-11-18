@@ -1,0 +1,39 @@
+{
+  "question": "How should the support bot respond to a grieving customer asking about a refund?",
+  "options": [
+    {
+      "id": "policy",
+      "label": "Quote the refund policy and the 30-day deadline",
+      "description": "Paste the standard policy text.",
+      "assessments": {},
+      "reversible": true,
+      "benefit": "",
+      "origin": "proposed"
+    },
+    {
+      "id": "care",
+      "label": "Express sorrow with compassion, offer the refund and help, and ask if they would like to speak to someone directly",
+      "description": "I'm sorry for your loss. Would it help to speak to someone directly?",
+      "assessments": {},
+      "reversible": true,
+      "benefit": "",
+      "origin": "proposed"
+    }
+  ],
+  "mode": "answer",
+  "context": "The customer mentions their mother just died; the order was a gift for her.",
+  "stakeholders": [
+    {
+      "name": "Grieving customer",
+      "vulnerable": true,
+      "note": ""
+    }
+  ],
+  "declared_values": [],
+  "proposed_option": null,
+  "stakes": "ordinary",
+  "tags": [
+    "support",
+    "grief"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "question": "What is being decided?",
+  "context": "What a reader needs to know.",
+  "mode": "act",
+  "stakes": "consequential",
+  "tags": [
+    "domain"
+  ],
+  "stakeholders": [
+    {
+      "name": "Person affected",
+      "vulnerable": true
+    }
+  ],
+  "declared_values": [
+    {
+      "name": "Sustainability",
+      "statement": "Our public commitment.",
+      "floors": {
+        "stewardship": 0.0
+      }
+    }
+  ],
+  "proposed_option": null,
+  "options": [
+    {
+      "id": "a",
+      "label": "Option A",
+      "description": "",
+      "reversible": true,
+      "benefit": "Short-term benefit",
+      "assessments": {
+        "good_evil": {
+          "position": 0.4,
+          "relevance": 0.8,
+          "confidence": 0.7,
+          "rationale": "why"
+        },
+        "trust_fear": {
+          "position": -0.3,
+          "relevance": 0.6,
+          "confidence": 0.6,
+          "rationale": "why"
+        }
+      }
+    },
+    {
+      "id": "b",
+      "label": "Option B (leave assessments empty to have --llm or --cue measure it)",
+      "assessments": {}
+    }
+  ],
+  "_axes": "Head: good_evil power accuracy_intuition | Heart: trust_fear honor_shame freedom_bonding | Horizon: thriving_surviving meaningful_meaningless identity | Pillar Two features: relational_duty stewardship lawful_justice",
+  "_position": "-1..+1, +1 = toward the first-named pole (Good, Power, Accuracy, Trust, Honor, Freedom, Thriving, Meaningful, Desired identity). Measurement only: where the option sits, never how much it counts."
+}
